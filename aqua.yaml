@@ -1,0 +1,8 @@
+---
+# aqua - Declarative CLI Version Manager
+# https://aquaproj.github.io/
+registries:
+- type: standard
+  ref: v1.11.0 # renovate: depName=aquaproj/aqua-registry
+packages:
+- name: cue-lang/cue@v0.4.2
